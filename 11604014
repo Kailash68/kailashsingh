@@ -37,3 +37,7 @@ int main()
 		{
 			printf("\n Parents is waiting on child process");
 			wait();
+			printf("\nParent process is done");
+		}
+	return 0; 
+}
